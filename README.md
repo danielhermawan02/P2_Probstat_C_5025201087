@@ -52,10 +52,48 @@ b+c) Berdasarkan output yang dihasilkan, diperoleh nilai z = 51.282 dengan nilai
   
 ## Soal No 3  
 ### a) H0 dan H1  
+H0 : Tidak ada perbedaan dalam kedua variabel  
+H1 : Ada ketidaksamaan dalam kedua variabel yang dibandingkan  
+  
 ### b) Hitung sampel statistik  
+Melakukan Uji T Independen karena 2 populasi tidak saling berikatan/saling bebas.  
+```r
+> tsum.test(mean.x = 2.64 , s.x = 1.67 , n.x = 19 , mean.y = 2.79 , s.y = 1.32 , n.y = 27 , var.equal = TRUE, conf.level = 0.95)
+
+        Standard Two-Sample t-Test
+
+data:  Summarized x and y
+t = -0.34001, df = 44, p-value = 0.7355
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.0391105  0.7391105
+sample estimates:
+mean of x mean of y 
+     2.64      2.79
+```  
+  
 ### c) Lakukan uji statistik (df = 2)  
 ### d) Nilai kritikal  
+```r
+# Left-tailed test
+> qt(p=0.05 , df = 2 , lower.tail = TRUE)
+[1] -2.919986
+
+# Right-tailed test
+> qt(p=0.05 , df = 2  ,lower.tail = FALSE)
+[1] 2.919986
+
+# Two-tailed test
+> qt(p=0.05/2 , df = 2 , lower.tail = FALSE)
+[1] 4.302653
+```  
+  
 ### e) Keputusan  
 ### f) Kesimpulan  
+Membutuhkan waktu cukup lama dalam mencari referensi yang belum tersedia :")  
+  
+  
+## Soal No 4  
+### a) 
 
 
