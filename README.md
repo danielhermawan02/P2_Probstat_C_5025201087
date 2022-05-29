@@ -30,3 +30,25 @@ Berdasarkan output yang dihasilkan, diperoleh nilai t = 12.013, dengan derajat b
   
 ## Soal No 2  
 ### a) Apakah setuju dengan klaim tersebut?  
+Setuju (Jika di logika singkat, tanpa menjalankan analisa mendalam).  
+  
+### b) Jelaskan hasil dari output  
+```r
+> zsum.test(mean.x = 20000 , sigma.x = 3900 , n.x = 100 , mu = 23500 , conf.level = 0.95)
+
+        One-sample z-Test
+
+data:  Summarized x
+z = -8.9744, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 23500
+95 percent confidence interval:
+ 19235.61 20764.39
+sample estimates:
+mean of x 
+    20000
+```  
++ c) Berdasarkan output yang dihasilkan, diperoleh nilai z = 51.282 dengan nilai p-value < 2.2e-16. Dari hasil tersebut dapat disimpulkan bahwa hipotesis alternatif bernilai benar karena rerata yang didapatkan tidak sama dengan 23500 (confidence interval berada di kisaran 19235.62 sampai 20764.39).  
+  
+  
+## Soal No 3  
+### a) 
