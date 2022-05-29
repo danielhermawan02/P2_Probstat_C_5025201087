@@ -47,8 +47,15 @@ sample estimates:
 mean of x 
     20000
 ```  
-+ c) Berdasarkan output yang dihasilkan, diperoleh nilai z = 51.282 dengan nilai p-value < 2.2e-16. Dari hasil tersebut dapat disimpulkan bahwa hipotesis alternatif bernilai benar karena rerata yang didapatkan tidak sama dengan 23500 (confidence interval berada di kisaran 19235.62 sampai 20764.39).  
+b+c) Berdasarkan output yang dihasilkan, diperoleh nilai z = 51.282 dengan nilai p-value < 2.2e-16. Dari hasil tersebut dapat disimpulkan bahwa hipotesis alternatif bernilai benar karena rerata yang didapatkan tidak sama dengan 23500 (confidence interval berada di kisaran 19235.62 sampai 20764.39).  
   
   
 ## Soal No 3  
-### a) 
+### a) H0 dan H1  
+### b) Hitung sampel statistik  
+### c) Lakukan uji statistik (df = 2)  
+### d) Nilai kritikal  
+### e) Keputusan  
+### f) Kesimpulan  
+
+
